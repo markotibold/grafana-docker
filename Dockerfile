@@ -1,6 +1,6 @@
-FROM debian:stretch-slim
+FROM resin/rpi-raspbian:stretch
 
-ARG GRAFANA_URL="https://s3-us-west-2.amazonaws.com/grafana-releases/master/grafana-latest.linux-x64.tar.gz"
+ARG GRAFANA_URL="https://s3-us-west-2.amazonaws.com/grafana-releases/master/grafana-5.2.0-19942pre1.linux-armv7.tar.gz"
 ARG GF_UID="472"
 ARG GF_GID="472"
 
